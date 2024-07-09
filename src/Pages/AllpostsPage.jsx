@@ -17,7 +17,7 @@ function AllpostsPage(){
                 <div className="flex flex-wrap">
                     {
                         posts.map((post)=>(
-                            <div key={post.$id} className="p-2 w-1/4 transform transition-all duration-300 hover:scale-105">
+                            <div key={post.$id} className="p-2 w-1/4 transform transition-all duration-300 hover:scale-101">
                                 <PostPreview {...post}/>
                             </div>
                         ))
